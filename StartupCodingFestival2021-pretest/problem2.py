@@ -15,10 +15,10 @@ def count_gift(n,m):
 	    n-=(12-m)
 	    m=0
 	    change_count= change_count + (n//12) + 1
-	else:
-            n-=(12-m)
-            m=0
-            change_count= change_count + (n//12) + 1
+    else:
+        n-=(12-m)
+        m=0
+        change_count= change_count + (n//12) + 1
     return change_count
 
 t = int(sys.stdin.readline())
