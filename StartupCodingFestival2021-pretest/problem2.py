@@ -8,13 +8,13 @@ def count_gift(n,m):
         return 0
     change_count = 0
     if m >= 7:
-	change_count = min(n//5, m//7)
-	n-=(change_count*5)
-	m-=(change_count*7)
-	if n >= 5 and n+m >= 12:
-	    n-=(12-m)
-	    m=0
-	    change_count= change_count + (n//12) + 1
+        change_count = min(n//5, m//7)
+        n-=(change_count*5)
+        m-=(change_count*7)
+        if n >= 5 and n+m >= 12:
+            n-=(12-m)
+            m=0
+            change_count= change_count + (n//12) + 1
     else:
         n-=(12-m)
         m=0
