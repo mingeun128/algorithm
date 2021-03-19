@@ -7,5 +7,5 @@ answer = 1
 n -= k
 answer += (n//(k-1))
 if n%(k-1)!=0:
-	answer+=1
+    answer+=1
 print(answer)
