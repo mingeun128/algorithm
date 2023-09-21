@@ -1,0 +1,8 @@
+a = int(input())
+b = input()
+intb = int(b)
+b = list(b)
+print(a*int(b[2]))
+print(a*int(b[1]))
+print(a*int(b[0]))
+print(a*intb)
